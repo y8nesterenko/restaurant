@@ -26,7 +26,7 @@ a {
 
 /*---------------------------APP------------------------*/
 
-.section__padding {
+.sectionPadding {
   padding: 4rem 6rem;
 }
 
@@ -44,15 +44,14 @@ a {
   background-attachment: fixed;
 }
 
-.app__wrapper {
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
-.app__wrapper_info {
+.wrapperInfo {
   flex: 1;
   width: 100%;
   display: flex;
@@ -61,27 +60,28 @@ a {
   flex-direction: column;
 }
 
-.app__wrapper_img {
+.wrapperImg {
   flex: 1;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 
-.app__wrapper_img-reverse {
+.wrapperImg img {
+  width: 80%;
+}
+
+
+.wrapperImgReverse {
   justify-content: flex-start;
   margin-right: 2rem;
 }
 
-.app__wrapper_img img {
-  width: 80%;
-}
 
-.custom__button {
-  background-color: var(--color-crimson);
+.button {
+    background-color: var(--color-crimson);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -130,7 +130,7 @@ a {
 }
 
 @media screen and (min-width: 2000px) {
-  .custom__button,
+  .button,
   .p__cormorant {
     font-size: 37px;
     line-height: 67px;
@@ -152,31 +152,31 @@ a {
 }
 
 @media screen and (max-width: 1150px) {
-  .app__wrapper {
+  .wrapper {
     flex-direction: column;
   }
 
-  .app__wrapper_img {
+  .wrapperImg {
     margin: 5rem 0 0 0;
   }
 
-  .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
+  .wrapperImg img {
+    width: 100%;
   }
 
-  .app__wrapper_img img {
-    width: 100%;
+  .wrapperImgReverse {
+    margin: 0 0 5rem 0;
   }
 }
 
 @media screen and (max-width: 850px) {
-  .section__padding {
+  .sectionPadding {
     padding: 4rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .section__padding {
+  .sectionPadding {
     padding: 4rem 2rem;
   }
   
