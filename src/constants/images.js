@@ -1,6 +1,6 @@
 import bg from '../assets/img/bg.png';
 import chef from '../assets/img/chef.png';
-import G from '../assets/img/G.png';
+import NY from '../assets/img/NY.png';
 import gallery01 from '../assets/img/gallery01.png';
 import gallery02 from '../assets/img/gallery02.png';
 import gallery03 from '../assets/img/gallery03.png';
@@ -24,7 +24,7 @@ import restaurant from '../assets/img/restaurant.png';
 export default {
   bg,
   chef,
-  G,
+  NY,
   gallery01,
   gallery02,
   gallery03,
