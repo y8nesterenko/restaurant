@@ -1,5 +1,5 @@
 import images from './images';
-import meal from '../assets//img/meal.mp4';
+import intro from '../assets/video/intro.mp4';
 import data from './data';
 
-export { images, meal, data };
+export { images, intro, data };
