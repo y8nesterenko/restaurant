@@ -4,7 +4,7 @@ import AboutUs from './components/AboutUs/AboutUs'
 import Menu from './components/Menu/Menu'
 import Chef from './components/Chef/Chef'
 import Video from './components/Video/Video'
-import Laurels from './components/Laurels/Laurels'
+import Awards from './components/Awards/Awards'
 import Gallery from './components/Gallery/Gallery'
 import FindUs from './components/FindUs/FindUs'
 import Footer from './components/Footer/Footer'
@@ -18,7 +18,7 @@ const App = () => {
       <Menu />
       <Chef />
       <Video />
-      <Laurels />
+      <Awards />
       <Gallery />
       <FindUs />
       <Footer />

@@ -12,11 +12,11 @@ import overlaybg from '../assets/img/overlaybg.png';
 import spoon from '../assets/img/spoon.svg';
 import welcome from '../assets/img/welcome.png';
 import findus from '../assets/img/findus.png';
-import laurels from '../assets/img/laurels.png';
+import awards from '../assets/img/awards.png';
 import award01 from '../assets/img/award01.png';
 import award02 from '../assets/img/award02.png';
 import award03 from '../assets/img/award03.png';
-import award05 from '../assets/img/award05.png';
+import award04 from '../assets/img/award04.png';
 import quote from '../assets/img/quote.png';
 import restaurant from '../assets/img/restaurant.png';
 
@@ -35,11 +35,11 @@ export default {
   spoon,
   welcome,
   findus,
-  laurels,
+  awards,
   award01,
   award02,
   award03,
-  award05,
+  award04,
   quote,
   restaurant,
 };
