@@ -17,7 +17,6 @@ import award01 from '../assets/img/award01.png';
 import award02 from '../assets/img/award02.png';
 import award03 from '../assets/img/award03.png';
 import award05 from '../assets/img/award05.png';
-import sign from '../assets/img/sign.png';
 import quote from '../assets/img/quote.png';
 import restaurant from '../assets/img/restaurant.png';
 
@@ -41,7 +40,6 @@ export default {
   award02,
   award03,
   award05,
-  sign,
   quote,
   restaurant,
 };
