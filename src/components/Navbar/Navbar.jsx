@@ -4,7 +4,7 @@ import style from './Navbar.module.scss';
 import Burger from './Burger/Burger';
 
 const Navbar = () => {
-  const links = ['Home', 'About', 'Menu', 'Awards', 'Contact'];
+  const links = ['Home', 'About', 'Menu', 'Awards', 'Contacts'];
   const link = links.map((item) => (
     <li key={item.toString()} className='p__opensans'>
       <a href={`#${item.toLocaleLowerCase()}`}>{item}</a>
